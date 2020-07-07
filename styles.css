@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(12, 72, 83);
+    line-height: 25px;
+
+}
+
+li a:hover{
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+form{
+    display: flex;
+}
+
+header{
+    background: url('mybanner.jpg');
+    background-size: cover;
+    height: 20vh;
+}
